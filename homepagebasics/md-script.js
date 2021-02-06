@@ -66,6 +66,7 @@ $(document).ready(function () {
     var player2 = '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
   
+
         fetch("https://www.googleapis.com/youtube/v3/search?&key=" + YOUTUBE_API_KEY + "&type=video&maxResults=" + maxResults + "&q=" + MovieTitle + " trailer")
 
             .then(Response => Response.json())
