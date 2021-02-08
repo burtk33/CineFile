@@ -9,7 +9,7 @@ $(document).ready(function () {
   var introHeading = $("<h1>").text("Hello and Welcome!")
   var intro = $("<p>").addClass("introPg")
   intro.text("Cinefile is the perfect place to find the movies you love, discover new ones, and create your own personal watchlist! We provide 4 ways to search for the movies you want: if you know which movie you’re looking for, simply use the movie search feature. If you’re looking to discover new movies, you can search either by actor or by genre, with the added option to narrow the the genre search by year. Click on the movies in the results for more details and to add them to your own personal watch list! Ready to get started?")
-  var startApp = $("<button>").addClass("submitButton w3-button w3-xxlarge w3-black w3-hover-blue-gray w3-round-xxlarge w3-margin-bottom").text("Get Started!")
+  var startApp = $("<button>").addClass("submitButton w3-button w3-xxlarge w3-black w3-hover-indigo w3-round-xxlarge w3-margin-bottom").text("Get Started!")
 
   introSection.append(introHeading, intro, startApp)
   $("#generatedResults").append(introSection)
